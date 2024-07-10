@@ -1,0 +1,9 @@
+.details {
+    margin: auto 640px !important;
+}
+
+a.btn.btn-success {
+    /* text-align: right; */
+    float: right;
+    margin-right: 10px !important;
+}

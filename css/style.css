@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.formvalidation {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#validate {
+    display: grid;
+    grid-gap: 10px;
+}
+
+#index_row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 162px;
+    margin-right: 10px;
+    /* text-align: right; */
+}
+
+input,
+select,
+button,
+textarea {
+    padding: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 350px;
+}
+
+.buttn {
+    text-align: center;
+}
+
+button {
+    background-color: #41a3a3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="radio"] {
+    /* box-sizing: border-box; */
+    width: 20px;
+    /* max-width: 350px; */
+    margin-left: 101px;
+}
+input#female {
+    margin: 0px;
+}
+div#usercheck {
+    padding-left: 175px !important;
+}
+div#usercheck2 {
+    padding-left: 175px !important;
+}
+div#errEmail {
+    padding-left: 175px !important;
+}
+div#Address{
+    padding-left: 175px !important;
+}
+div#errcity{
+    padding-left: 175px !important;
+}
+div#errstate{
+    padding-left: 175px !important;
+}
+div#errcountry{
+    padding-left: 175px !important;
+}
+div#errzipcode{
+    padding-left: 175px !important;
+}
+div#errnum{
+    padding-left: 175px !important;
+}
+div#errpswd{
+    padding-left: 175px !important;
+}
+div#errgender{
+    padding-left: 175px !important;
+}
+div#errselect {
+    padding-left: 175px !important;
+}
+div#errimg {
+    padding-left: 175px !important;
+}
+div#errresume {
+    padding-left: 175px !important;
+}
+.details {
+    margin: auto 640px !important;
+}
+a.btn.btn-primary {
+    /* text-align: right; */
+    float: right;
+    margin-right: 10px !important;
+}
+a.btn.btn-success {
+    /* text-align: right; */
+    float: right;
+    margin-right: 10px !important;
+}
+a.btn.btn-danger {
+    /* text-align: right; */
+    margin-right: 10px !important;
+}
+
+
+/* https://www.c-sharpcorner.com/article/crud-operation-in-php-using-mysql/#google_vignette */
